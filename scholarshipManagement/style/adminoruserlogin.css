@@ -1,0 +1,46 @@
+body {
+    background-color: blueviolet;
+}
+
+.container{
+    margin: auto;
+    background-color: aliceblue;
+    width: 40%;
+    margin-top: 300px;
+    height: fit-content;
+    border-radius: 20px;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px 30px 0px;
+}
+
+
+button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    width: 40%;
+    padding: 10px 0px 10px 0px;
+    background-color: aliceblue;
+    color: blueviolet;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: blueviolet;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+button:hover{
+    color: aliceblue;
+    background-color: blueviolet;
+}
+
+a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
